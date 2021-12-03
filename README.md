@@ -7,7 +7,7 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 ---
 
 
-<section>
+<section class="box-nt" style="display: flex; justify-content: center;">
     <img src="https://img.shields.io/static/v1?label=Code&message=vBlackCD&color=1C1C1C&style=for-the-badge&logo=GHOST" alt="ntShield">
     <img src="Assets/LogoVNW.svg">
 </section>
