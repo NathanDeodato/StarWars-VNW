@@ -1,0 +1,227 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* config-body */
+
+
+/* config-header */
+header {
+    width: 100%;
+    height: 30%;
+}
+
+.Container-Header {
+    position: relative;
+}
+
+.BackImg-Header {
+    width: 100%;
+    height: 80vh;
+
+    position: absolute;
+    z-index: 0;
+}
+
+.Box-Figure {
+    width: 30%;
+    z-index: 1;
+    
+    position: absolute;
+    left: 10%;
+}
+.Figure-Header {
+    width: 65vw;
+}
+
+.Box-Star {
+    width: 25vw;
+    height: 10vh;
+    
+    position: absolute;
+    top: 45vh;
+    left: 20vw;
+}
+.Text-Star {
+    width: 22vw;
+}
+
+.Box-Wars {
+    width: 25vw;
+    height: 10vh;
+    
+    position: absolute;
+    top: 45vh;
+    left: 60vw;
+}
+.Text-Wars {
+    width: 22vw;
+}
+
+.Box-Legion {
+    width: 10%;
+    height: 80vh;
+    
+    position: absolute;
+    left: 85vw;
+}
+.Text-Legion {
+    width: 8vw;
+    position: absolute;
+    top: 60vh;
+}
+
+/* config-main */
+main {
+    width: 100%;
+}
+
+.Box-RedOne {
+    width: 20vw;
+    
+    position: absolute;
+    top: 75vh;
+    left: 15vw;
+    z-index: 2;
+}
+.Box-SobreJogo {
+    width: 50vw;
+    
+    position: absolute;
+    top: 110vh;
+    left: 45vw;
+}
+
+.LinhaMain {
+    width: 80vw;
+
+    position: absolute;
+    top: 150vh;
+    left: 15vw;
+}
+
+.PersonagemMainOne {
+    width: 40vw;
+
+    position: absolute;
+    top: 155vh;
+    left: 15vw;
+    z-index: 2;
+}
+.PersonagemMainTwo {
+    width: 18vw;
+
+    position: absolute;
+    top: 165vh;
+    left: 75vw;
+    z-index: 2;
+}
+
+.Box-EstruturaJogo {
+    width: 28vw;
+
+    position: absolute;
+    top: 155vh;
+    left: 43vw;
+    z-index: 3;
+}
+
+.Title-BoxCinza {
+    width: 15vw;
+
+    position: absolute;
+    top:255vh;
+    left: 15vw;
+    z-index: 2;
+}
+.Box-Cinza {
+    width: 100%;
+
+    position: absolute;
+    top: 233vh;
+    z-index: 1;
+}
+.BoxCinza-ImageOne {
+    width: 40vw;
+
+    position: absolute;
+    top: 270vh;
+    left: 10vw;
+    z-index: 2;
+}
+.BoxCinza-ImageTwo {
+    width: 20vw;
+
+    position: absolute;
+    top: 270vh;
+    left: 50vw;
+    z-index: 2;
+}
+.BoxCinza-ImageThree {
+    width: 20vw;
+
+    position: absolute;
+    top: 270vh;
+    left: 70vw;
+    z-index: 2;
+}
+.BoxCinza-ImageFour {
+    width: 20vw;
+
+    position: absolute;
+    top: 296.5vh;
+    left: 50vw;
+    z-index: 2;
+}
+.BoxCinza-ImageFive {
+    width: 20vw;
+
+    position: absolute;
+    top: 296.5vh;
+    left: 70vw;
+    z-index: 2;
+}
+
+.BoxCinza-ImageSix {
+    width: 80vw;
+
+    position: absolute;
+    top:335vh;
+    left: 10vw;
+    z-index: 2;
+}
+.BoxCinza-TextImageSix {
+    width: 40vw;
+
+    position: absolute;
+    top:445vh;
+    left: 50vw;
+    z-index: 2;
+}
+
+.PersonagemMainThree {
+    width: 25vw;
+
+    position: absolute;
+    top: 460vh;
+    left: 10vw;
+    z-index: 2;
+}
+
+.Text-ComoJogar {
+    width: 40vw;
+
+    position: absolute;
+    top:300vh;
+    left: 30vw;
+    z-index: 4;
+}
+
+/* config-footer */
+footer {
+    width: 100%;
+}
