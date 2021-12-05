@@ -24,14 +24,14 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 
 <h2  align="center">Project</h2>
 
-<img src="Assets/ProjectImage/OneImage" alt="PageWeb-01">
-<img src="Assets/ProjectImage/TwoImage" alt="PageWeb-02">
-<img src="Assets/ProjectImage/ThreeImage" alt="PageWeb-03"> 
-<img src="Assets/ProjectImage/FourImage" alt="PageWeb-04">
-<img src="Assets/ProjectImage/FiveImage" alt="PageWeb-05">
-<img src="Assets/ProjectImage/SixImage" alt="PageWeb-06">
-<img src="Assets/ProjectImage/SevenImage" alt="PageWeb-07">
-<img src="Assets/ProjectImage/EigthImage" alt="PageWeb-08">
+<img src="Assets/ProjectImages/OneImage" alt="PageWeb-01">
+<img src="Assets/ProjectImages/TwoImage" alt="PageWeb-02">
+<img src="Assets/ProjectImages/ThreeImage" alt="PageWeb-03"> 
+<img src="Assets/ProjectImages/FourImage" alt="PageWeb-04">
+<img src="Assets/ProjectImages/FiveImage" alt="PageWeb-05">
+<img src="Assets/ProjectImages/SixImage" alt="PageWeb-06">
+<img src="Assets/ProjectImages/SevenImage" alt="PageWeb-07">
+<img src="Assets/ProjectImages/EigthImage" alt="PageWeb-08">
 
 ---
 
