@@ -1,16 +1,13 @@
+<img src="https://img.shields.io/static/v1?label=Code&message=vBlackCD&color=1C1C1C&style=for-the-badge&logo=GHOST" alt="ntShield">
+
+
+---
+
 <h1 align="center">Star Wars</h1>
 
 <p>
 O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma página responsiva com informações relacionadas à um jogo de Star Wars.
 </p>
-
----
-
-
-<section class="box-nt" style="display: flex; justify-content: center;">
-    <img src="https://img.shields.io/static/v1?label=Code&message=vBlackCD&color=1C1C1C&style=for-the-badge&logo=GHOST" alt="ntShield">
-    <img src="Assets/LogoVNW.svg">
-</section>
 
 ---
 
@@ -27,13 +24,14 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 
 <h2  align="center">Project</h2>
 
-<!-- 
-<img src="Assets/" alt="PageWeb-01">
-<img src="Assets/" alt="PageWeb-02">
-<img src="Assets/" alt="PageWeb-03"> 
-<img src="Assets/" alt="PageWeb-03">
-
--->
+<img src="Assets/OneImage" alt="PageWeb-01">
+<img src="Assets/TwoImage" alt="PageWeb-02">
+<img src="Assets/ThreeImage" alt="PageWeb-03"> 
+<img src="Assets/FourImage" alt="PageWeb-04">
+<img src="Assets/FiveImage" alt="PageWeb-05">
+<img src="Assets/SixImage" alt="PageWeb-06">
+<img src="Assets/SevenImage" alt="PageWeb-07">
+<img src="Assets/EigthImage" alt="PageWeb-08">
 
 ---
 
@@ -50,6 +48,14 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 
 - [] Responsividade
 - [] hover
+
+---
+
+<h3 align="center">Academia</h3>
+
+<section>
+    <img src="Assets/LogoVNW.svg">
+</section>
 
 ---
 

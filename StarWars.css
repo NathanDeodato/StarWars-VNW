@@ -212,16 +212,162 @@ main {
     z-index: 2;
 }
 
-.Text-ComoJogar {
-    width: 40vw;
+.Title-ComoJogar {
+    width: 20vw;
 
     position: absolute;
-    top:300vh;
-    left: 30vw;
+    top:480vh;
+    left: 50vw;
     z-index: 4;
 }
+
+.Container-TipoGame {
+    width: 100%;
+    height: 60vh;
+
+    position: absolute;
+    top: 495vh;
+}
+
+.Box-DownloadOne {
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+    z-index: 2;
+}
+.DownloadOne {
+    width: 15vw;
+}
+.DownloadOneLinha {
+    position: absolute;
+    top: 40vh;
+    left: 4vw;
+}
+
+.Box-DownloadTwo {
+    position: absolute;
+    top: 10vh;
+    left: 60vw;
+    z-index: 2;
+}
+.DownloadTwo {
+    width: 15vw;
+}
+.DownloadTwoLinha {
+    position: absolute;
+    top: 40vh;
+    left: 4vw;
+}
+
+.Box-DownloadThree {
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+    z-index: 2;
+}
+.DownloadThree {
+    width: 15vw;
+}
+.DownloadThreeLinha {
+    position: absolute;
+    top: 40vh;
+    left: 4vw;
+}
+
+
+/* .Box-DownloadTwo {
+    
+} */
+
 
 /* config-footer */
 footer {
     width: 100%;
+}
+
+.Box-RedFooter {
+    width: 60vw;
+    height: 85vh;
+    
+    position: absolute;
+    top: 560vh;
+    z-index: 2;    
+}
+
+.Title-Aplicativo {
+    width: 12vw;
+
+    position: absolute;
+    top: 565vh;
+    left: 13vw;
+    z-index: 2;
+}
+.DescriptionOne {
+    width: 30vw;
+
+    position: absolute;
+    top: 580vh;
+    left: 13vw;
+    z-index: 2;
+}
+
+.PersonagemFooterOne {
+    width: 30vw;
+
+    position: absolute;
+    top: 550vh;
+    left: 50vw;
+    z-index: 2;    
+}
+
+.Button-PlayStore {
+    width: 13vw;
+
+    position: absolute;
+    top: 595vh;
+    left: 13vw;
+    z-index: 2;    
+}
+.Button-AppleStore {
+    width: 13vw;
+
+    position: absolute;
+    top: 595vh;
+    left: 28vw;
+    z-index: 2;    
+}
+
+.LinhaVermelha {
+    width: 28vw;
+
+    position: absolute;
+    top: 607vh;
+    left: 13vw;
+    z-index: 2; 
+}
+
+.Title-StarWars {
+    width: 12vw;
+
+    position: absolute;
+    top: 611vh;
+    left: 13vw;
+    z-index: 2;   
+}
+.DescriptionTwo {
+    width: 30vw;
+
+    position: absolute;
+    top: 628vh;
+    left: 13vw;
+    z-index: 2;
+}
+
+.Coopy {
+    width: 20vw;
+
+    position: absolute;
+    top: 630vh;
+    left: 70vw;
+    z-index: 2;     
 }
