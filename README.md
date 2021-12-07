@@ -1,6 +1,5 @@
 <img src="https://img.shields.io/static/v1?label=Code&message=vBlackCD&color=1C1C1C&style=for-the-badge&logo=GHOST" alt="ntShield">
 
-
 ---
 
 <h1 align="center">Star Wars</h1>
@@ -26,7 +25,7 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 
 <img src="Assets/ProjectImages/StarWars-ImageOne.png" alt="PageWeb-01">
 <img src="Assets/ProjectImages/StarWars-ImageTwo.png" alt="PageWeb-02">
-<img src="Assets/ProjectImages/StarWars-ImageThree.png" alt="PageWeb-03"> 
+<img src="Assets/ProjectImages/StarWars-ImageThree.png" alt="PageWeb-03">
 <img src="Assets/ProjectImages/StarWars-ImageFour.png" alt="PageWeb-04">
 <img src="Assets/ProjectImages/StarWars-ImageFive.png" alt="PageWeb-05">
 <img src="Assets/ProjectImages/StarWars-ImageSix.png" alt="PageWeb-06">

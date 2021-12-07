@@ -16,7 +16,11 @@ header {
 }
 
 .Container-Header {
-    position: relative;
+    position: absolute;
+
+    background-image: url("Assets/ImagesHeader/Header-Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .BackImg-Header {
