@@ -11,7 +11,7 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 ---
 
 <h2 align="center">Design</h2>
-<a href="https://xd.adobe.com/view/aaf75fc2-eba3-41ec-bc48-de80d0615154-ffa4/"><img src="https://img.shields.io/static/v1?label=Design&message=ADOBEXD&color=4B0082&style=for-the-badge&logo=GHOST" alt="ntShield-Designe"></a>
+<a href="https://xd.adobe.com/view/aaf75fc2-eba3-41ec-bc48-de80d0615154-ffa4/"><img src="https://img.shields.io/static/v1?label=Design&message=ADOBEXD&color=4B0082&style=for-the-badge&logo=ADOBEXD" alt="ntShield-Designe"></a>
 
 ---
 
@@ -42,7 +42,6 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 <h3 align="center">Funcionalidades</h3>
 
 - [] Responsividade
-- [] hover
 
 ---
 
