@@ -37,20 +37,20 @@ header {
 }
 
     /*⇓ container-header(maior) ⇓*/
-.Container-Header {
+.header-container {
     width: 100%;
     height: 100%;
 
     position: relative;
 }
 
-.Header-ImageBackground {
+.header-backgroundimage {
     width: 100%;
     height: 100%;
 }
 
         /*⇓ box-main / Personagem / Kylo Ren ⇓*/
-.Header-Personagem {
+.header-personagem {
     width: 60%;
 
     position: absolute;
@@ -60,7 +60,7 @@ header {
     z-index: 1;    
 }
 
-.Header-TextStar {
+.header-textstar {
     width: 25%;
 
     position: absolute;
@@ -70,7 +70,7 @@ header {
     z-index: 0;
 }
 
-.Header-TextWars {
+.header-textwars {
     width: 25%;
 
     position: absolute;
@@ -81,7 +81,7 @@ header {
 }
 
         /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
-.Header-BoxSelectLegion {
+.header-selectlegion {
     width: 10%;
 
     position: absolute;
@@ -90,13 +90,13 @@ header {
     left: 90%;
 }
 
-.Header-TitleSelectLegion {
+.header-selectlegiontitle {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
 }
 
-.Header-hrSelectLegion {
+.header-selectlegionhr {
     width: 87%;
     height: 4%;
 
@@ -107,7 +107,7 @@ header {
     border: none;
 }
 
-.Header-NumberSelectLegion {
+.header-selectlegionnum {
     position: absolute;
     top: 155%;
     
@@ -116,7 +116,7 @@ header {
     font-weight: 400;
 }
 
-.Header-NumberOthersSelectLegion {
+.header-selectlegionnumm {
     position: absolute;
     top: 165%;
     left: 18%;
@@ -126,7 +126,7 @@ header {
     font-weight: 400;
 }
 
-.Header-SetaOneSelectLegion {
+.header-selectlegionsetaone {
     width: 12%;
     
     font-size: 0.8em;
@@ -141,11 +141,11 @@ header {
     background-color: rgb(196, 196, 196);
 }
 
-.Header-SetaOneSelectLegion:hover {
+.header-selectlegionsetaone:hover {
     cursor: pointer;
 }
 
-.Header-SetaTwoSelectLegion {
+.header-selectlegionsetatwo {
     width: 12%;
     
     font-size: 0.8em;
@@ -160,7 +160,7 @@ header {
     background-color: rgb(196, 196, 196);
 }
 
-.Header-SetaTwoSelectLegion:hover {
+.header-selectlegionsetatwo:hover {
     cursor: pointer;
 }
 
@@ -175,7 +175,7 @@ main {
 }
 
     /*⇓ container-main(maior) ⇓*/
-.Container-Main {
+.main-container {
     width: 100%;
     height: 100%;
 
@@ -183,7 +183,7 @@ main {
 }
 
         /*⇓ box-main / Primeira section(maior) ⇓*/
-.Main-BoxOne {
+.main-boxone {
     width: 100%;
     height: 160%;
 
@@ -340,7 +340,7 @@ main {
 }
 
         /*⇓ box-main / Linha cinza ⇓*/
-.Main-BoxOneDivisor {
+.main-boxonedivisor {
     width: 80%;
 
     position: absolute;
@@ -456,39 +456,29 @@ main {
 }
 
 .Main-BoxCinzaImages {
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 20%;
 
     position: absolute;
-    top: 1%;
+    top: 12%;
     left: 10%;
-
-    display: flex;
-    justify-content: center;
-}
-
-.main-boximageone {
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    align-items: center;
-}
-
-.main-BoxImagesOthers {
-    width: 100%;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
-.main-boximagesix {
-    width: 80%;
+.main-boximageone {
+    width: 40%;
+}
+
+.main-boximagesothers {
+    width: 53%;
 
     position: absolute;
-    top: 40%;
-    left: 10%;
+    right: 7%;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-imageone {
@@ -496,11 +486,7 @@ main {
 }
 
 .main-imagesother {
-    width: 100%;
-}
-
-.main-imagesix {
-    width: 100%;
+    width: 38%;
 }
 
 .main-imageone:hover {
@@ -513,6 +499,16 @@ main {
     background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.Main-BoxImageSix {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.main-imagesix {
+    width: 90%;
 }
 
 .Main-BoxTwoText {
@@ -766,8 +762,8 @@ main {
 
 /*⇓ config-footer ⇓*/
 
-    /*⇓ container-footer(maior) ⇓*/
-.Container-Footer{
+    /*⇓ .container-footer(maior) ⇓*/
+.container-footer{
     width: 60%;
     height: 80%;
 
@@ -777,7 +773,7 @@ main {
     background-color: #D94032;
 }
 
-.Footer-Personagem {
+.footer-personagem {
     width: 60%;
 
     position: absolute;
@@ -785,7 +781,7 @@ main {
     left: 80%;
 }
         /*⇓ box-footer / Copy do VNW ⇓*/
-.Footer-Copy {
+.footer-copy {
     width: 40%;
 
     font-family: 'Roboto Condensed', sans-serif;
@@ -796,13 +792,13 @@ main {
     left: 115%;
 }
         /*⇓ box-footer / section vermelha do footer ⇓*/
-.Box-Red {
+.box-red {
     width: 55%;
 
     color: white;
 }
 
-.Footer-TitleBoxRed {
+.footer-titleboxred {
     position: absolute;
     top: 12%;
     left: 15%;
@@ -813,7 +809,7 @@ main {
     font-weight: bold;
 }
 
-.Footer-TextOneBoxRed {
+.footer-textone {
     width: 40%;
     
     position: absolute;
@@ -826,14 +822,14 @@ main {
     font-weight: 300;
 }
 
-.Footer-GoogleStore {
+.footer-googlestore {
     width: 18%;
 
     position: absolute;
     top: 40%;
     left: 15%;
 }
-.Footer-GoogleStore:hover {
+.footer-googlestore:hover {
     cursor: pointer;
 
     width: 20%;
@@ -842,14 +838,14 @@ main {
     left: 14%;
 }
 
-.Footer-AppleStore {
+.footer-applestore {
     width: 18%;
 
     position: absolute;
     top: 40%;
     left: 37%;
 }
-.Footer-AppleStore:hover {
+.footer-applestore:hover {
     cursor: pointer;
 
     width: 20%;
@@ -858,7 +854,7 @@ main {
     left: 36%;
 }
 
-.Footer-hrBoxRed {
+.footer-hr {
     width: 43%;
     height: 0.8%;
 
@@ -871,14 +867,14 @@ main {
 }
 
 
-.Footer-StarWarsTitle {
+.footer-starwars {
     width: 20%;
 
     position: absolute;
     top: 60%;
     left: 14%;
 }
-.Footer-StarWarsTitle:hover {
+.footer-starwars:hover {
     cursor: pointer;
 
     width: 23%;
@@ -886,7 +882,7 @@ main {
     top: 58%;
 }
 
-.Footer-TextTwoBoxRed {
+.footer-texttwo {
     width: 40%;
     
     position: absolute;
@@ -905,72 +901,39 @@ main {
     
     /*⇓ config-header ⇓*/
 
-    .Header-ImageBackground {
-        width: 100%;
+    .header-backgroundimage {
         height: 80%;
     }
 
     /*⇓ box-main / Personagem / Kylo Ren ⇓*/
     
-    .Header-Personagem {
-        width: 60%;
-
-        position: absolute;
-        transform: translate(-50%,-50%);
+    .header-personagem {
         top: 40%;
         left: 45%;
-        z-index: 1;    
     }
 
-    .Header-TextStar {
-        width: 25%;
-
-        position: absolute;
-        transform: translate(-50%,-50%);
+    .header-textstar {
         top: 45%;
         left: 32%;
-        z-index: 0;
     }
 
-    .Header-TextWars {
-        width: 25%;
-
-        position: absolute;
-        transform: translate(-50%,-50%);
+    .header-textwars {
         top: 45%;
         left: 75%;
-        z-index: 0;
     }
 
     /*⇓ box-header / Crie Sua Legião(maior) ⇓*/    
 
-    .Header-BoxSelectLegion {
-        width: 10%;
-    
-        position: absolute;
-        transform: translate(-50%,-50%);
+    .header-selectlegion {
         top: 60%;
         left: 90%;
     }
     
-    .Header-TitleSelectLegion {
-        font-family: 'Roboto Condensed', sans-serif;
+    .header-selectlegiontitle {
         font-size: 1em;
-        font-weight: 300;
     }
     
-    .Header-hrSelectLegion {
-        width: 87%;
-        height: 4%;
-    
-        position: absolute;
-        top: 120%;
-    
-        background-color: black;
-        border: none;
-    }
-    
-    .Header-NumberSelectLegion {
+    .header-selectlegionnum {
         position: absolute;
         top: 155%;
         
@@ -979,7 +942,7 @@ main {
         font-weight: 400;
     }
     
-    .Header-NumberOthersSelectLegion {
+    .header-selectlegionnumm {
         position: absolute;
         top: 160%;
         left: 15%;
@@ -989,7 +952,7 @@ main {
         font-weight: 400;
     }
     
-    .Header-SetaOneSelectLegion {
+    .header-selectlegionsetaone {
         width: 12%;
         
         font-size: 0.7em;
@@ -1004,11 +967,11 @@ main {
         background-color: rgb(196, 196, 196);
     }
     
-    .Header-SetaOneSelectLegion:hover {
+    .header-selectlegionsetaone:hover {
         cursor: pointer;
     }
     
-    .Header-SetaTwoSelectLegion {
+    .header-selectlegionsetatwo {
         width: 12%;
         
         font-size: 0.7em;
@@ -1023,7 +986,7 @@ main {
         background-color: rgb(196, 196, 196);
     }
     
-    .Header-SetaTwoSelectLegion:hover {
+    .header-selectlegionsetatwo:hover {
         cursor: pointer;
     }
 
@@ -1039,7 +1002,7 @@ main {
         /*⇓ container-main(maior) ⇓*/
 
             /*⇓ box-main / Primeira section(maior) ⇓*/
-    .Main-BoxOne {
+    .main-boxone {
         width: 100%;
         height: 160%;
 
@@ -1258,15 +1221,36 @@ main {
     }
 
     .Main-BoxCinzaImages {
-        width: 80%;
-        height: 50%;
-
+        width: 100%;
+        height: 20%;
+    
         position: absolute;
-        top: 0%;
         left: 10%;
-
+    
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .main-boximageone {
+        width: 40%;
+    }
+    
+    .main-boximagesothers {
+        width: 53%;
+    
+        position: absolute;
+        right: 7%;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .main-imageone {
+        width: 100%;
+    }
+    
+    .main-imagesother {
+        width: 38%;
     }
 
     .Main-BoxTwoText {
@@ -1463,8 +1447,8 @@ main {
         background-color: rgb(230, 59, 59);
     }    
 
-        /*⇓ container-footer(maior) ⇓*/
-    .Container-Footer{
+        /*⇓ .container-footer(maior) ⇓*/
+    .container-footer{
         width: 60%;
         height: 80%;
 
@@ -1474,7 +1458,7 @@ main {
         background-color: #D94032;
     }
 
-    .Footer-Personagem {
+    .footer-personagem {
         width: 60%;
 
         position: absolute;
@@ -1482,7 +1466,7 @@ main {
         left: 80%;
     }
             /*⇓ box-footer / Copy do VNW ⇓*/
-    .Footer-Copy {
+    .footer-copy {
         width: 40%;
 
         font-family: 'Roboto Condensed', sans-serif;
@@ -1494,13 +1478,13 @@ main {
         left: 115%;
     }
             /*⇓ box-footer / section vermelha do footer ⇓*/
-    .Box-Red {
+    .box-red {
         width: 55%;
 
         color: white;
     }
 
-    .Footer-TitleBoxRed {
+    .footer-titleboxred {
         position: absolute;
         top: 12%;
         left: 15%;
@@ -1511,7 +1495,7 @@ main {
         font-weight: bold;
     }
 
-    .Footer-TextOneBoxRed {
+    .footer-textone {
         width: 40%;
         
         position: absolute;
@@ -1524,14 +1508,14 @@ main {
         font-weight: 300;
     }
 
-    .Footer-GoogleStore {
+    .footer-googlestore {
         width: 18%;
 
         position: absolute;
         top: 42%;
         left: 15%;
     }
-    .Footer-GoogleStore:hover {
+    .footer-googlestore:hover {
         cursor: pointer;
 
         width: 20%;
@@ -1540,14 +1524,14 @@ main {
         left: 14%;
     }
 
-    .Footer-AppleStore {
+    .footer-applestore {
         width: 18%;
 
         position: absolute;
         top: 42%;
         left: 37%;
     }
-    .Footer-AppleStore:hover {
+    .footer-applestore:hover {
         cursor: pointer;
 
         width: 20%;
@@ -1556,7 +1540,7 @@ main {
         left: 36%;
     }
 
-    .Footer-hrBoxRed {
+    .footer-hr {
         width: 45%;
         height: 0.5%;
 
@@ -1569,14 +1553,14 @@ main {
     }
 
 
-    .Footer-StarWarsTitle {
+    .footer-starwars {
         width: 18%;
 
         position: absolute;
         top: 60%;
         left: 14%;
     }
-    .Footer-StarWarsTitle:hover {
+    .footer-starwars:hover {
         cursor: pointer;
 
         width: 20%;
@@ -1584,7 +1568,7 @@ main {
         top: 58%;
     }
 
-    .Footer-TextTwoBoxRed {
+    .footer-texttwo {
         width: 40%;
         
         position: absolute;
@@ -1603,13 +1587,13 @@ main {
     
             /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
     
-    .Header-TitleSelectLegion {
+    .header-selectlegiontitle {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1em;
         font-weight: 300;
     }
     
-    .Header-hrSelectLegion {
+    .header-selectlegionhr {
         width: 87%;
         height: 4%;
     
@@ -1620,7 +1604,7 @@ main {
         border: none;
     }
     
-    .Header-NumberSelectLegion {
+    .header-selectlegionnum {
         position: absolute;
         top: 155%;
         
@@ -1629,7 +1613,7 @@ main {
         font-weight: 400;
     }
     
-    .Header-NumberOthersSelectLegion {
+    .header-selectlegionnumm {
         position: absolute;
         top: 160%;
         left: 15%;
@@ -1639,7 +1623,7 @@ main {
         font-weight: 400;
     }
     
-    .Header-SetaOneSelectLegion {
+    .header-selectlegionsetaone {
         width: 12%;
         
         font-size: 0.8em;
@@ -1654,7 +1638,7 @@ main {
         background-color: rgb(196, 196, 196);
     }
     
-    .Header-SetaTwoSelectLegion {
+    .header-selectlegionsetatwo {
         width: 12%;
         
         font-size: 0.8em;
@@ -1763,7 +1747,7 @@ main {
 
     /*⇓ box-main / Linha cinza ⇓*/
 
-    .Main-BoxOneDivisor {
+    .main-boxoneDivisor {
         width: 80%;
 
         position: absolute;
@@ -1870,39 +1854,29 @@ main {
     }
     
     .Main-BoxCinzaImages {
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 20%;
     
         position: absolute;
-        top: 1%;
+        top: 12%;
         left: 10%;
-    
-        display: flex;
-        justify-content: center;
-    }
-    
-    .main-boximageone {
-        width: 100%;
-        height: 100%;
-        
-        display: flex;
-        align-items: center;
-    }
-    
-    .main-BoxImagesOthers {
-        width: 100%;
     
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
     
-    .main-boximagesix {
-        width: 80%;
+    .main-boximageone {
+        width: 40%;
+    }
+    
+    .main-boximagesothers {
+        width: 53%;
     
         position: absolute;
-        top: 40%;
-        left: 10%;
+        right: 7%;
+    
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .main-imageone {
@@ -1910,23 +1884,11 @@ main {
     }
     
     .main-imagesother {
-        width: 100%;
+        width: 38%;
     }
     
     .main-imagesix {
-        width: 100%;
-    }
-    
-    .main-imageone:hover {
-        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .main-imagesother:hover {
-        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
-        background-repeat: no-repeat;
-        background-size: cover;
+        width: 90%;
     }
     
     .Main-BoxTwoText {
@@ -2083,9 +2045,9 @@ main {
     
     /*⇓ config-footer ⇓*/
     
-        /*⇓ container-footer(maior) ⇓*/
+        /*⇓ .container-footer(maior) ⇓*/
 
-    .Container-Footer{
+    .container-footer{
         width: 60%;
         height: 80%;
     
@@ -2095,7 +2057,7 @@ main {
         background-color: #D94032;
     }
     
-    .Footer-Personagem {
+    .footer-personagem {
         width: 65%;
     
         position: absolute;
@@ -2104,7 +2066,7 @@ main {
     }
             /*⇓ box-footer / Copy do VNW ⇓*/
 
-    .Footer-Copy {
+    .footer-copy {
         width: 40%;
     
         font-family: 'Roboto Condensed', sans-serif;
@@ -2118,7 +2080,7 @@ main {
 
             /*⇓ box-footer / section vermelha do footer ⇓*/
     
-    .Footer-TitleBoxRed {
+    .footer-titleboxred {
         position: absolute;
         top: 12%;
         left: 15%;
@@ -2129,7 +2091,7 @@ main {
         font-weight: bold;
     }
     
-    .Footer-TextOneBoxRed {
+    .footer-textone {
         width: 40%;
         
         position: absolute;
@@ -2142,14 +2104,14 @@ main {
         font-weight: 300;
     }
     
-    .Footer-GoogleStore {
+    .footer-googlestore {
         width: 17%;
     
         position: absolute;
         top: 43%;
         left: 15%;
     }
-    .Footer-GoogleStore:hover {
+    .footer-googlestore:hover {
         cursor: pointer;
     
         width: 20%;
@@ -2158,14 +2120,14 @@ main {
         left: 14%;
     }
     
-    .Footer-AppleStore {
+    .footer-applestore {
         width: 17%;
     
         position: absolute;
         top: 43%;
         left: 37%;
     }
-    .Footer-AppleStore:hover {
+    .footer-applestore:hover {
         cursor: pointer;
     
         width: 20%;
@@ -2174,7 +2136,7 @@ main {
         left: 36%;
     }
     
-    .Footer-hrBoxRed {
+    .footer-hr {
         width: 50%;
         height: 1%;
     
@@ -2187,14 +2149,14 @@ main {
     }
     
     
-    .Footer-StarWarsTitle {
+    .footer-starwars {
         width: 18%;
     
         position: absolute;
         top: 60%;
         left: 14%;
     }
-    .Footer-StarWarsTitle:hover {
+    .footer-starwars:hover {
         cursor: pointer;
     
         width: 20%;
@@ -2202,7 +2164,7 @@ main {
         top: 58%;
     }
     
-    .Footer-TextTwoBoxRed {
+    .footer-texttwo {
         width: 40%;
         
         position: absolute;
@@ -2222,7 +2184,7 @@ main {
 @media (max-width: 768px) {
     /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
 
-    .Header-TitleSelectLegion {
+    .header-selectlegiontitle {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 0.8em;
         font-weight: 300;
@@ -2354,7 +2316,7 @@ main {
 
     /*⇓ box-main / Linha cinza ⇓*/
 
-    .Main-BoxOneDivisor {
+    .main-boxoneDivisor {
         width: 80%;
 
         position: absolute;
@@ -2449,25 +2411,6 @@ main {
         position: absolute;
         top: 7%;
         left: 15%;
-    }
-    
-    .Main-BoxCinzaImages {
-        width: 80%;
-        height: 50%;
-    
-        position: absolute;
-        left: 10%;
-    
-        display: flex;
-        justify-content: center;
-    }
-    
-    .main-boximageone {
-        width: 100%;
-        height: 100%;
-        
-        display: flex;
-        align-items: center;
     }
     
     .Main-BoxTwoText {
@@ -2632,9 +2575,9 @@ main {
     
     /*⇓ config-footer ⇓*/
     
-        /*⇓ container-footer(maior) ⇓*/
+        /*⇓ .container-footer(maior) ⇓*/
 
-    .Container-Footer{
+    .container-footer{
         width: 60%;
         height: 70%;
     
@@ -2644,7 +2587,7 @@ main {
         background-color: #D94032;
     }
     
-    .Footer-Personagem {
+    .footer-personagem {
         width: 65%;
     
         position: absolute;
@@ -2653,7 +2596,7 @@ main {
     }
             /*⇓ box-footer / Copy do VNW ⇓*/
 
-    .Footer-Copy {
+    .footer-copy {
         width: 40%;
     
         font-family: 'Roboto Condensed', sans-serif;
@@ -2667,7 +2610,7 @@ main {
 
             /*⇓ box-footer / section vermelha do footer ⇓*/
     
-    .Footer-TitleBoxRed {
+    .footer-titleboxred {
         position: absolute;
         top: 12%;
         left: 15%;
@@ -2678,7 +2621,7 @@ main {
         font-weight: bold;
     }
     
-    .Footer-TextOneBoxRed {
+    .footer-textone {
         width: 40%;
         
         position: absolute;
@@ -2691,14 +2634,14 @@ main {
         font-weight: 300;
     }
     
-    .Footer-GoogleStore {
+    .footer-googlestore {
         width: 17%;
     
         position: absolute;
         top: 43%;
         left: 15%;
     }
-    .Footer-GoogleStore:hover {
+    .footer-googlestore:hover {
         cursor: pointer;
     
         width: 20%;
@@ -2707,14 +2650,14 @@ main {
         left: 14%;
     }
     
-    .Footer-AppleStore {
+    .footer-applestore {
         width: 17%;
     
         position: absolute;
         top: 43%;
         left: 37%;
     }
-    .Footer-AppleStore:hover {
+    .footer-applestore:hover {
         cursor: pointer;
     
         width: 20%;
@@ -2723,7 +2666,7 @@ main {
         left: 36%;
     }
     
-    .Footer-TextTwoBoxRed {
+    .footer-texttwo {
         width: 40%;
         
         position: absolute;
@@ -2749,21 +2692,21 @@ main {
 
         /*⇓ container-header(maior) ⇓*/
 
-    .Container-Header {
+    .header-container {
         width: 100%;
         height: 100%;
     
         position: relative;
     }
     
-    .Header-ImageBackground {
+    .header-backgroundimage {
         width: 100%;
         height: 113%;
     }
 
             /*⇓ box-main / Personagem / Kylo Ren ⇓*/
 
-    .Header-Personagem {
+    .header-personagem {
         width: 80%;
 
         position: absolute;
@@ -2773,7 +2716,7 @@ main {
         z-index: 1;    
     }
 
-    .Header-TextStar {
+    .header-textstar {
         width: 25%;
 
         position: absolute;
@@ -2783,7 +2726,7 @@ main {
         z-index: 0;
     }
 
-    .Header-TextWars {
+    .header-textwars {
         width: 25%;
 
         position: absolute;
@@ -2795,7 +2738,7 @@ main {
 
             /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
 
-    .Header-BoxSelectLegion {
+    .header-selectlegion {
         width: 15%;
     
         position: absolute;
@@ -2805,7 +2748,7 @@ main {
         z-index: 2;
     }
 
-    .Header-TitleSelectLegion {
+    .header-selectlegiontitle {
         width: 100%;
         
         font-family: 'Roboto Condensed', sans-serif;
@@ -2813,7 +2756,7 @@ main {
         font-weight: 300;
     }
 
-    .Header-hrSelectLegion {
+    .header-selectlegionhr {
         width: 100%;
         height: 6%;
     
@@ -2824,7 +2767,7 @@ main {
         border: none;
     }
 
-    .Header-NumberSelectLegion {
+    .header-selectlegionnum {
         position: absolute;
         top: 165%;
         
@@ -2833,7 +2776,7 @@ main {
         font-weight: 400;
     }
 
-    .Header-NumberOthersSelectLegion {
+    .header-selectlegionnumm {
         position: absolute;
         top: 170%;
         left: 15%;
@@ -2843,7 +2786,7 @@ main {
         font-weight: 400;
     }
 
-    .Header-SetaOneSelectLegion {
+    .header-selectlegionsetaone {
         width: 20%;
 
         transform: rotate(90deg);
@@ -2856,11 +2799,11 @@ main {
         background-color: rgb(196, 196, 196);
     }
 
-    .Header-SetaOneSelectLegion:hover {
+    .header-selectlegionsetaone:hover {
         cursor: pointer;
     }
 
-    .Header-SetaTwoSelectLegion {
+    .header-selectlegionsetatwo {
         width: 20%;
 
         transform: rotate(-90deg);
@@ -2873,7 +2816,7 @@ main {
         background-color: rgb(196, 196, 196);
     }
 
-    .Header-SetaTwoSelectLegion:hover {
+    .header-selectlegionsetatwo:hover {
         cursor: pointer;
     }
 
@@ -2888,7 +2831,7 @@ main {
     }
 
         /*⇓ container-main(maior) ⇓*/
-    .Container-Main {
+    .main-container {
         width: 100%;
         height: 100%;
 
@@ -2896,7 +2839,7 @@ main {
     }
 
             /*⇓ box-main / Primeira section(maior) ⇓*/
-    .Main-BoxOne {
+    .main-boxone {
         width: 100%;
         height: 100%;
 
@@ -3054,13 +2997,13 @@ main {
     }
 
             /*⇓ box-main / Linha cinza ⇓*/
-    .Main-BoxOneDivisor {
+    .main-boxonedivisor {
         width: 90%;
-        height: 0.5%;
-
+        height: 1%;
+    
         position: absolute;
-        top: 155%;
-        left: 5%;
+        top: 153%;
+        left: 7%;
     }
 
             /*⇓ box-main / Personagem / Darth Maul ⇓*/
@@ -3150,7 +3093,7 @@ main {
             /*⇓ box-main / Segunda section(maior) ⇓*/
     .Main-BoxTwo {
         width: 100%;
-        height: 300%;
+        height: 260%;
         
         position: absolute;
         top: 195%;
@@ -3172,11 +3115,11 @@ main {
 
     .Main-BoxCinzaImages {
         width: 100%;
-        height: 90%;
+        height: 50%;
 
         position: absolute;
-        top: 5%;
-        left: 0%;
+        top: 12%;
+        left: -27%;
 
         display: flex;
         flex-direction: column;
@@ -3184,32 +3127,40 @@ main {
         justify-content: space-evenly;
     }
 
+    .main-boximageone {
+        width: 92%;
+        
+        position: absolute;
+        left: 40%;
+        bottom: 85%;
+    }
+
+    .main-boximagesothers {
+        position: absolute;
+        top: 14%;
+    }
+
+    .Main-BoxImageSix {
+        width: 100%;
+        
+        position: absolute;
+        top: 75%;
+        left: 0%;
+    }
+
     .main-imageone {
         width: 80%;
     }
     .main-imagesother {
-        width: 80%;
+        width: 140%;
     }
 
     .main-imagesix {
         width: 100%;
     }
 
-    .main-imageone:hover {
-        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .main-imagesother:hover {
-        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .Main-BoxTwoText {
         font-size: 0.4em;
-        color: white;
         
         width: 40%;
 
@@ -3225,7 +3176,7 @@ main {
         height: 65%;
 
         position: absolute;
-        top: 495%;
+        top: 450%;
     }
 
     .Main-BoxThreeTitle {
@@ -3460,18 +3411,18 @@ main {
 
     /*⇓ config-footer ⇓*/
 
-        /*⇓ container-footer(maior) ⇓*/
-    .Container-Footer{
+        /*⇓ .container-footer(maior) ⇓*/
+    .container-footer{
         width: 100%;
         height: 140%;
 
         position: absolute;
-        top: 640%;
+        top: 600%;
 
         background-color: #D94032;
     }
 
-    .Footer-Personagem {
+    .footer-personagem {
         width: 80%;
 
         position: absolute;
@@ -3479,7 +3430,7 @@ main {
         left: 10%;
     }
             /*⇓ box-footer / Copy do VNW ⇓*/
-    .Footer-Copy {
+    .footer-copy {
         width: 60%;
 
         font-family: 'Roboto Condensed', sans-serif;
@@ -3491,13 +3442,13 @@ main {
         left: 20%;
     }
             /*⇓ box-footer / section vermelha do footer ⇓*/
-    .Box-Red {
+    .box-red {
         width: 55%;
 
         color: white;
     }
 
-    .Footer-TitleBoxRed {
+    .footer-titleboxred {
         position: absolute;
         top: 5%;
         left: 15%;
@@ -3508,7 +3459,7 @@ main {
         font-weight: bold;
     }
 
-    .Footer-TextOneBoxRed {
+    .footer-textone {
         width: 75%;
         
         position: absolute;
@@ -3521,14 +3472,14 @@ main {
         font-weight: 300;
     }
 
-    .Footer-GoogleStore {
+    .footer-googlestore {
         width: 35%;
 
         position: absolute;
         top: 30%;
         left: 10%;
     }
-    .Footer-GoogleStore:hover {
+    .footer-googlestore:hover {
         cursor: pointer;
 
         width: 36%;
@@ -3537,14 +3488,14 @@ main {
         left: 10%;
     }
 
-    .Footer-AppleStore {
+    .footer-applestore {
         width: 35%;
 
         position: absolute;
         top: 30%;
         left: 55%;
     }
-    .Footer-AppleStore:hover {
+    .footer-applestore:hover {
         cursor: pointer;
 
         width: 36%;
@@ -3553,7 +3504,7 @@ main {
         left: 55%;
     }
 
-    .Footer-hrBoxRed {
+    .footer-hr {
         width: 85%;
         height: 0.8%;
 
@@ -3566,14 +3517,14 @@ main {
     }
 
 
-    .Footer-StarWarsTitle {
+    .footer-starwars {
         width: 45%;
 
         position: absolute;
         top: 45%;
         left: 26%;
     }
-    .Footer-StarWarsTitle:hover {
+    .footer-starwars:hover {
         cursor: pointer;
 
         width: 46%;
@@ -3581,7 +3532,7 @@ main {
         top: 44%;
     }
 
-    .Footer-TextTwoBoxRed {
+    .footer-texttwo {
         width: 70%;
         
         position: absolute;
@@ -3609,21 +3560,21 @@ main {
 
         /*⇓ container-header(maior) ⇓*/
 
-    .Container-Header {
+    .header-container {
         width: 100%;
         height: 70%;
     
         position: relative;
     }
     
-    .Header-ImageBackground {
+    .header-backgroundimage {
         width: 100%;
         height: 100%;
     }
 
             /*⇓ box-main / Personagem / Kylo Ren ⇓*/
 
-    .Header-Personagem {
+    .header-personagem {
         width: 60%;
 
         position: absolute;
@@ -3633,7 +3584,7 @@ main {
         z-index: 1;    
     }
 
-    .Header-TextStar {
+    .header-textstar {
         width: 25%;
 
         position: absolute;
@@ -3643,7 +3594,7 @@ main {
         z-index: 0;
     }
 
-    .Header-TextWars {
+    .header-textwars {
         width: 25%;
 
         position: absolute;
@@ -3655,7 +3606,7 @@ main {
 
             /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
 
-    .Header-BoxSelectLegion {
+    .header-selectlegion {
         width: 15%;
     
         position: absolute;
@@ -3665,7 +3616,7 @@ main {
         z-index: 2;
     }
 
-    .Header-TitleSelectLegion {
+    .header-selectlegiontitle {
         width: 100%;
         
         font-family: 'Roboto Condensed', sans-serif;
@@ -3673,7 +3624,7 @@ main {
         font-weight: 300;
     }
 
-    .Header-hrSelectLegion {
+    .header-selectlegionhr {
         width: 100%;
         height: 6%;
     
@@ -3684,7 +3635,7 @@ main {
         border: none;
     }
 
-    .Header-NumberSelectLegion {
+    .header-selectlegionnum {
         position: absolute;
         top: 165%;
         
@@ -3693,7 +3644,7 @@ main {
         font-weight: 400;
     }
 
-    .Header-NumberOthersSelectLegion {
+    .header-selectlegionnumm {
         position: absolute;
         top: 170%;
         left: 15%;
@@ -3714,7 +3665,7 @@ main {
     }
 
         /*⇓ container-main(maior) ⇓*/
-    .Container-Main {
+    .main-container {
         width: 100%;
         height: 100%;
 
@@ -3722,7 +3673,7 @@ main {
     }
 
             /*⇓ box-main / Primeira section(maior) ⇓*/
-    .Main-BoxOne {
+    .main-boxone {
         width: 100%;
         height: 160%;
 
@@ -3881,13 +3832,13 @@ main {
     }
 
             /*⇓ box-main / Linha cinza ⇓*/
-    .Main-BoxOneDivisor {
+    .main-boxonedivisor {
         width: 90%;
         height: 0.5%;
-
+    
         position: absolute;
-        top: 104%;
-        left: 5%;
+        top: 102%;
+        left: 7%;
     }
 
             /*⇓ box-main / Personagem / Darth Maul ⇓*/
@@ -4287,7 +4238,7 @@ main {
         background-color: rgb(230, 59, 59);
     }
 
-    .Container-Footer{
+    .container-footer{
         width: 100%;
         height: 140%;
 
@@ -4299,7 +4250,7 @@ main {
 
             /*⇓ box-footer / Copy do VNW ⇓*/
 
-    .Footer-Copy {
+    .footer-copy {
         width: 60%;
 
         font-family: 'Roboto Condensed', sans-serif;
@@ -4312,13 +4263,13 @@ main {
     }
             /*⇓ box-footer / section vermelha do footer ⇓*/
 
-    .Box-Red {
+    .box-red {
         width: 55%;
 
         color: white;
     }
 
-    .Footer-TitleBoxRed {
+    .footer-titleboxred {
         position: absolute;
         top: 5%;
         left: 15%;
@@ -4329,7 +4280,7 @@ main {
         font-weight: bold;
     }
 
-    .Footer-TextOneBoxRed {
+    .footer-textone {
         width: 75%;
         
         position: absolute;
@@ -4342,14 +4293,14 @@ main {
         font-weight: 300;
     }
 
-    .Footer-GoogleStore {
+    .footer-googlestore {
         width: 35%;
 
         position: absolute;
         top: 30%;
         left: 10%;
     }
-    .Footer-GoogleStore:hover {
+    .footer-googlestore:hover {
         cursor: pointer;
 
         width: 36%;
@@ -4358,14 +4309,14 @@ main {
         left: 10%;
     }
 
-    .Footer-AppleStore {
+    .footer-applestore {
         width: 35%;
 
         position: absolute;
         top: 30%;
         left: 55%;
     }
-    .Footer-AppleStore:hover {
+    .footer-applestore:hover {
         cursor: pointer;
 
         width: 36%;
@@ -4374,7 +4325,7 @@ main {
         left: 55%;
     }
 
-    .Footer-hrBoxRed {
+    .footer-hr {
         width: 85%;
         height: 0.8%;
 
@@ -4387,14 +4338,14 @@ main {
     }
 
 
-    .Footer-StarWarsTitle {
+    .footer-starwars {
         width: 45%;
 
         position: absolute;
         top: 45%;
         left: 26%;
     }
-    .Footer-StarWarsTitle:hover {
+    .footer-starwars:hover {
         cursor: pointer;
 
         width: 46%;
@@ -4402,7 +4353,7 @@ main {
         top: 44%;
     }
 
-    .Footer-TextTwoBoxRed {
+    .footer-texttwo {
         width: 70%;
         
         position: absolute;
@@ -4416,9 +4367,858 @@ main {
     }
 }
 
-
-
 /*⇓ Style Mobile P ⇓*/
+@media (max-width: 375px) {
+    /*⇓ config-header ⇓*/
+
+    header {
+        width: 100%;
+        height: 30%;
+
+        position: absolute;
+    }
+
+        /*⇓ container-header(maior) ⇓*/
+
+    .header-container {
+        width: 100%;
+        height: 70%;
+    
+        position: relative;
+    }
+    
+    .header-backgroundimage {
+        width: 100%;
+        height: 100%;
+    }
+
+            /*⇓ box-main / Personagem / Kylo Ren ⇓*/
+
+    .header-personagem {
+        width: 50%;
+
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 60%;
+        left: 45%;
+        z-index: 1;    
+    }
+
+    .header-textstar {
+        width: 25%;
+
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 55%;
+        left: 30%;
+        z-index: 0;
+    }
+
+    .header-textwars {
+        width: 25%;
+
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 55%;
+        left: 75%;
+        z-index: 0;
+    }
+
+            /*⇓ box-header / Crie Sua Legião(maior) ⇓*/
+
+    .header-selectlegion {
+        width: 15%;
+    
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 80%;
+        left: 85%;
+        z-index: 2;
+    }
+
+    .header-selectlegiontitle {
+        width: 100%;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.5em;
+        font-weight: 300;
+    }
+
+    .header-selectlegionhr {
+        width: 100%;
+        height: 6%;
+    
+        position: absolute;
+        top: 120%;
+    
+        background-color: black;
+        border: none;
+    }
+
+    .header-selectlegionnum {
+        position: absolute;
+        top: 165%;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.4em;
+        font-weight: 400;
+    }
+
+    .header-selectlegionnumm {
+        position: absolute;
+        top: 170%;
+        left: 15%;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.3em;
+        font-weight: 400;
+    }
+
+
+    /*⇓ config-main ⇓*/
+    main {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 16%;
+    }
+
+        /*⇓ container-main(maior) ⇓*/
+    .main-container {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+    }
+
+            /*⇓ box-main / Primeira section(maior) ⇓*/
+    .main-boxone {
+        width: 100%;
+        height: 130%;
+
+        position: absolute;
+        top: 5%;
+    }
+
+    .Main-BackgroundOne {
+        width: 100%;
+        height: 80%;
+        
+        background-image: url("Assets/ImagesMain/Main-BackgroundOne.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+            /*⇓ box-main / Comece a Jogar ⇓*/
+
+    .Main-BoxComeceJogo {
+        width: 70%;
+        height: 50%;
+
+        color: white;
+
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        z-index: 2;
+
+        background-image: url("Assets/ImagesMain/Main-ImageComeceJogo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+
+    .Main-TitleComeceJogo {
+        width: 60%;
+        height: 10%;
+
+        position: absolute;
+        top: 10%;
+        left: 25%;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.8em;
+        font-weight: 450;
+    }
+
+    .Main-TextComeceJogo {
+        width: 70%;
+        height: 10%;
+
+        position: absolute;
+        top: 40%;
+        left: 17%;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1em;
+        font-weight: 200;
+    }
+
+    .Main-ButtonComeceJogo {
+        width: 50%;
+        height: 10%;
+        
+        position: absolute;
+        top: 70%;
+        left: 25%;
+
+        font-size: 0.8em;
+
+        color: white;
+        background: none;
+        border: white solid 1px;
+        border-radius: 3px;
+    }
+
+    .Main-ButtonComeceJogo:hover {
+        cursor: pointer;
+
+        top: 69%;
+        left: 20%;
+
+        width: 60%;
+        height: 12%;
+
+        font-size: 1em;
+    }
+
+    .Main-DateComeceJogo {
+        position: absolute;
+        top: 90%;
+        left: 60%;
+
+        font-size: 0.5em;
+        color: white;
+    }
+
+            /*⇓ box-main / Sobre o Jogo ⇓*/
+    .Main-BoxSobreJogo {
+        width: 95%;
+        height: 60%;
+
+        position: absolute;
+        top: 30%;
+        /* bottom: 18%; */
+        left: 30%;
+    }
+
+    .Main-TitleSobreJogo {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.2em;
+        
+        position: absolute;
+        top: 95%;
+        right: 30%;
+    }
+
+    .Main-hrSobreJogo {
+        width: 45%;
+        height: 0.7%;
+
+        position: absolute;
+        top: 100%;
+        left: 25%;
+
+        background-color: black;
+        border: none;
+    }
+
+    .Main-TextSobreJogo {
+        width: 90%;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.6em;
+        
+        position: absolute;
+        top: 105%;
+        right: 33%;
+    }
+
+    .Main-ImageSobreJogo {
+        width: 75%;
+
+        position: absolute;
+        right: 35%;
+        top: 55%;
+        border-radius: 10px;
+    }
+
+    .Main-ImageSobreJogo:hover {
+        width: 80%;
+
+        position: absolute;
+        top: 55%;
+    }
+
+            /*⇓ box-main / Linha cinza ⇓*/
+    .main-boxoneDivisor {
+        width: 90%;
+        height: 0.5%;
+
+        position: absolute;
+        top: 104%;
+        left: 5%;
+    }
+
+            /*⇓ box-main / Personagem / Darth Maul ⇓*/
+    .Main-PersonagemOne {
+        width: 45%;
+
+        position: absolute;
+        top: 108%;
+        left: 5%;
+        z-index: 1;    
+    }
+
+            /*⇓ box-main / Personagem / Rey ⇓*/
+    .Main-PersonagemTwo {
+        width: 20%;
+
+        position: absolute;
+        top: 110%;
+        left: 75%;
+        z-index: 1;
+    }
+
+    .Main-BoxEstruturaJogo {
+        width: 35%;
+        height: 60%;
+
+        position: absolute;
+        top: 100%;
+        left: 35%;
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .Main-BoxTitleEstruturaJogo {
+        width: 90%;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Main-TitleEstruturaJogo {
+        position: absolute;
+        top: 10%;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .Main-TitleJogo {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Main-BoxTextsEstruturaJogo {
+        width: 100%;
+        height: 80%;
+
+        position: absolute;
+        top: 20%;
+    }
+
+    .Main-TextEstruturaJogo {
+        width: 100%;
+        height: 5%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 0.35em;
+    }
+
+    .Main-TextEstruturaJogo:hover {
+        padding-right: 5%;
+
+        font-size: 0.4em;
+
+        background-color: rgb(230, 59, 59);
+        border-radius: 3px;
+    }
+
+            /*⇓ box-main / Segunda section(maior) ⇓*/
+    .Main-BoxTwo {
+        width: 100%;
+        height: 220%;
+        
+        position: absolute;
+        top: 170%;
+        
+        background-image: url("Assets/ImagesMain/Main-BackgroundCinza.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Main-BoxTwoTitle {
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 1.2em;
+        color: white;
+
+        position: absolute;
+        top: 3%;
+        left: 37%;
+    }
+
+    .Main-BoxCinzaImages {
+        width: 100%;
+        height: 90%;
+
+        position: absolute;
+        top: 6%;
+        left: -27%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .main-imageone {
+        width: 80%;
+    }
+    .main-imagesother {
+        width: 140%;
+    }
+
+    .main-imagesix {
+        width: 100%;
+    }
+
+    .main-imageone:hover {
+        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-imagesother:hover {
+        background-image: url("Assets/ImagesMain/Main-BoxCinzaImage-MouseEnter");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Main-BoxTwoText {
+        font-size: 0.4em;
+        color: white;
+        
+        width: 40%;
+
+        transform: translate(-50%,-50%);
+
+        position: absolute;
+        top: 95%;
+        left: 70%;
+    }
+
+    .Main-BoxThree {
+        width: 100%;
+        height: 65%;
+
+        position: absolute;
+        top: 415%;
+    }
+
+    .Main-BoxThreeTitle {
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 1.5em;
+        color: white;
+
+        position: absolute;
+        top: 97.5%;
+        left: 45%;    
+    }
+
+    .Main-PersonagemThree {
+        width: 100%;
+
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 70%;
+        left: 5%;
+    }
+
+    .Main-BoxDownloads {
+        width: 60%;
+        height: 130%;
+
+        position: absolute;
+        top: 20%;
+        left: 40%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Main-BoxDownloadOne {
+        width: 60%;
+        height: 80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Main-NumberDowloadOne {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.8em;
+        font-weight: 300;
+    }
+
+    .Main-BoxDownloadOne:hover .Main-NumberDowloadOne {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .Main-ButtonDownloadOne {
+        width: 90%;
+        height: 25%;
+
+        font-size: 0.8em;
+
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .Main-ButtonDownloadOne:hover {
+        cursor: pointer;
+        
+        width: 95%;
+        height: 30%;
+
+        font-size: 1em;
+        
+        background-color: rgb(230, 59, 59);
+    }
+
+    .Main-TextDownloadOne {
+        width: 60%;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+
+    .Main-hrDownloadOne {
+        width: 30%;
+        height: 2%;
+
+        background-color: black;
+        border: none;
+    }
+
+    .Main-BoxDownloadOne:hover .Main-hrDownloadOne{
+        background-color: rgb(230, 59, 59);
+    }
+
+    .Main-BoxDownloadTwo {
+        width: 60%;
+        height: 80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Main-NumberDowloadTwo {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.8em;
+        font-weight: 300;
+    }
+
+    .Main-BoxDownloadTwo:hover .Main-NumberDowloadTwo{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .Main-ButtonDownloadTwo {
+        width: 90%;
+        height: 25%;
+
+        font-size: 0.8em;
+
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .Main-ButtonDownloadTwo:hover {
+        cursor: pointer;
+
+        width: 95%;
+        height: 30%;
+
+        font-size: 1em;
+        
+        background-color: rgb(230, 59, 59);
+    }
+
+    .Main-TextDownloadTwo {
+        width: 9%;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+
+    .Main-hrDownloadTwo {
+        width: 30%;
+        height: 2%;
+
+        background-color: black;
+        border: none;
+    }
+
+    .Main-BoxDownloadTwo:hover .Main-hrDownloadTwo{
+        background-color: rgb(230, 59, 59);
+    }
+
+
+    .Main-BoxDownloadThree {
+        width: 60%;
+        height: 80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Main-NumberDowloadThree {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.8em;
+        font-weight: 300;
+    }
+
+    .Main-BoxDownloadThree:hover .Main-NumberDowloadThree{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .Main-ButtonDownloadThree {
+        width: 90%;
+        height: 25%;
+
+        font-size: 0.8em;
+
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .Main-ButtonDownloadThree:hover {
+        cursor: pointer;
+        
+        width: 95%;
+        height: 30%;
+
+        font-size: 1em;
+        
+        background-color: rgb(230, 59, 59);
+    }
+
+    .Main-TextDownloadThree {
+        text-align: center;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+
+    .Main-TextDownloadThree:hover {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .Main-hrDownloadThree {
+        width: 30%;
+        height: 2%;
+
+        background-color: black;
+        border: none;
+    }
+
+    .Main-BoxDownloadThree:hover .Main-hrDownloadThree{
+        background-color: rgb(230, 59, 59);
+    }
+
+    .container-footer{
+        width: 100%;
+        height: 140%;
+
+        position: absolute;
+        top: 535%;
+
+        background-color: #D94032;
+    }
+
+            /*⇓ box-footer / Copy do VNW ⇓*/
+
+    .footer-copy {
+        width: 60%;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.8em;
+        font-weight: 100;
+
+        position: absolute;
+        top: 125%;
+        left: 20%;
+    }
+            /*⇓ box-footer / section vermelha do footer ⇓*/
+
+    .box-red {
+        width: 55%;
+
+        color: white;
+    }
+
+    .footer-titleboxred {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .footer-textone {
+        width: 75%;
+        
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .footer-googlestore {
+        width: 35%;
+
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    .footer-googlestore:hover {
+        cursor: pointer;
+
+        width: 36%;
+        
+        top: 29%;
+        left: 10%;
+    }
+
+    .footer-applestore {
+        width: 35%;
+
+        position: absolute;
+        top: 30%;
+        left: 55%;
+    }
+    .footer-applestore:hover {
+        cursor: pointer;
+
+        width: 36%;
+
+        top: 29%;
+        left: 55%;
+    }
+
+    .footer-hr {
+        width: 85%;
+        height: 0.8%;
+
+        position: absolute;
+        top: 40%;
+        left: 7%;
+
+        background-color: rgb(238, 24, 24);
+        border: none;
+    }
+
+
+    .footer-starwars {
+        width: 45%;
+
+        position: absolute;
+        top: 45%;
+        left: 26%;
+    }
+    .footer-starwars:hover {
+        cursor: pointer;
+
+        width: 46%;
+
+        top: 44%;
+    }
+
+    .footer-texttwo {
+        width: 70%;
+        
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    /* config-main */
+
+    .Main-BoxTwo {
+        height: 200%;
+        
+        top: 170%;
+    }
+
+    .Main-BoxTwoTitle {
+        left: 33%;
+    }
+
+    .Main-BoxImageSix {
+        top: 72%;
+    }
+
+    .Main-BoxTwoText {
+        top: 91%;
+    }
+
+    .Main-BoxThree {
+        top: 360%;
+    }
 
 
 
+    /* config-footer */
+
+    .container-footer {
+        top: 480%;
+    }
+}
