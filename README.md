@@ -17,7 +17,7 @@ O Star Wars é o projeto final do primeiro módulo do curso do VaiNaWeb. É uma 
 
 <h2  align="center">Application demo</h2>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a6cced98-1987-4e36-a017-b7e53e63e88e/deploy-status)](https://app.netlify.com/sites/starwars-vnw/deploys)
+<a href="https://starwars-vnw.netlify.app/"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=0e1e25&style=for-the-badge&logo=NETLIFY" alt="ntShield"></a>
 
 ---
 
